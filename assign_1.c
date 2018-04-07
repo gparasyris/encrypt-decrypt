@@ -554,7 +554,7 @@ void
 write_file(char * file,unsigned char * text,int length, int mode){
 	if(blvr)
 		printf("__START WRITE FILE\n");
-	FILE *fp;
+	FILE *fp; 
 	if(mode){
 		if(blvr) printf("writing bytes...\n");
 		fp = fopen(file, "wb");
