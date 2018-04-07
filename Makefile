@@ -5,7 +5,7 @@ LIBSSL = -lssl -lcrypto
 LDFLAGS=  -L/usr/local/opt/openssl/lib
 CPPFLAGS= -I/usr/local/opt/openssl/include
 
-TARGETS = assign_1
+TARGETS = cryptool
 
 UNAME_S := $(shell uname -s)
     ifeq ($(UNAME_S),Darwin)
@@ -15,7 +15,7 @@ UNAME_S := $(shell uname -s)
 
 all: $(TARGETS)
 
-assign_1: assign_1.c
+cryptool: cryptool.c
 	$(CC) $(CCFLAGS) $(DBUG) -o $@ $< $(LIBSSL)
 
 clean:
