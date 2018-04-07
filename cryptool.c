@@ -1,7 +1,7 @@
- /* * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * *
-  * Code was provided within the course `Introduction to Information Security Systems`	*
-	* expecting the students to develop the code needed from keygen till main function.		*
-	* * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * */
+  /* * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * *
+  * Code was provided within the course `Introduction to Information Security Systems`	 *
+  * expecting the students to develop the code needed from keygen till main function.		 *
+  * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * */
 
 #include <stdio.h>
 #include <stdlib.h>
