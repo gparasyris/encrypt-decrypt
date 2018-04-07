@@ -1,7 +1,7 @@
 ### Description ###
 
-<!--There are 4 modes available:
--->
+A symmetric ensryption tool, written in C, that provides AES encryption/decryption and HMAC signing/verification functionality using the EVP API from the OpenSSL toolkit.
+
 #### Modes ####
 
 `encrypt`
