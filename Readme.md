@@ -39,7 +39,7 @@
 One can add an optional argument '1' at the end of the command to enable debug mode.
 
     example:
-    ./assign_1 -i ../files/hy457_verifyme_128.txt -o ver128.txt -p hy457 -b 128 -v 1
+    ./cryptool -i ../files/hy457_verifyme_128.txt -o ver128.txt -p hy457 -b 128 -v 1
 
 <!--
 /* Answer */
